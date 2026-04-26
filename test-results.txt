@@ -1,0 +1,166 @@
+[32m26 04 2026 11:42:23.536:INFO [karma-server]: [39mKarma v4.1.0 server started at http://0.0.0.0:9877/
+[32m26 04 2026 11:42:23.537:INFO [launcher]: [39mLaunching browsers ChromeHeadless with concurrency unlimited
+[32m26 04 2026 11:42:23.542:INFO [launcher]: [39mStarting browser ChromeHeadless
+[32m26 04 2026 11:42:26.524:INFO [HeadlessChrome 145.0.0 (Linux 0.0.0)]: [39mConnected on socket rETtRV9oeg85Am6BAAAA with id 36790499
+HeadlessChrome 145.0.0 (Linux 0.0.0): Executed 0 of 53 SUCCESS (0 secs / 0 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 1 of 53 SUCCESS (0 secs / 0.013 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 2 of 53 SUCCESS (0 secs / 0.016 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 3 of 53 SUCCESS (0 secs / 0.019 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 4 of 53 SUCCESS (0 secs / 0.021 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 5 of 53 SUCCESS (0 secs / 0.023 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 6 of 53 SUCCESS (0 secs / 0.026 secs)
+[1A[2KWARN: 'The "longpress" event cannot be bound because Hammer.JS is not loaded and no custom loader has been specified.'
+HeadlessChrome 145.0.0 (Linux 0.0.0): Executed 6 of 53 SUCCESS (0 secs / 0.026 secs)
+WARN: 'The "longpress" event cannot be bound because Hammer.JS is not loaded and no custom loader has been specified.'
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 7 of 53 SUCCESS (0 secs / 0.216 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 8 of 53 SUCCESS (0 secs / 0.218 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 9 of 53 SUCCESS (0 secs / 0.299 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 10 of 53 SUCCESS (0 secs / 0.302 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 11 of 53 SUCCESS (0 secs / 0.306 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 12 of 53 SUCCESS (0 secs / 0.309 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 13 of 53 SUCCESS (0 secs / 0.311 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 14 of 53 SUCCESS (0 secs / 0.313 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 15 of 53 SUCCESS (0 secs / 0.316 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 16 of 53 SUCCESS (0 secs / 0.327 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 17 of 53 SUCCESS (0 secs / 0.342 secs)
+[1A[2KWARN: 'The "longpress" event cannot be bound because Hammer.JS is not loaded and no custom loader has been specified.'
+HeadlessChrome 145.0.0 (Linux 0.0.0): Executed 17 of 53 SUCCESS (0 secs / 0.342 secs)
+WARN: 'The "longpress" event cannot be bound because Hammer.JS is not loaded and no custom loader has been specified.'
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 18 of 53 SUCCESS (0 secs / 0.537 secs)
+[1A[2KWARN: 'The "longpress" event cannot be bound because Hammer.JS is not loaded and no custom loader has been specified.'
+HeadlessChrome 145.0.0 (Linux 0.0.0): Executed 18 of 53 SUCCESS (0 secs / 0.537 secs)
+WARN: 'The "longpress" event cannot be bound because Hammer.JS is not loaded and no custom loader has been specified.'
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 19 of 53 SUCCESS (0 secs / 0.628 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 20 of 53 SUCCESS (0 secs / 0.74 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 21 of 53 SUCCESS (0 secs / 0.843 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 22 of 53 SUCCESS (0 secs / 0.945 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 23 of 53 SUCCESS (0 secs / 1.03 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 24 of 53 SUCCESS (0 secs / 1.108 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 25 of 53 SUCCESS (0 secs / 1.193 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 26 of 53 SUCCESS (0 secs / 1.298 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 27 of 53 SUCCESS (0 secs / 1.389 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 28 of 53 SUCCESS (0 secs / 1.436 secs)
+[1A[2KWARN: 'The "longpress" event cannot be bound because Hammer.JS is not loaded and no custom loader has been specified.'
+HeadlessChrome 145.0.0 (Linux 0.0.0): Executed 28 of 53 SUCCESS (0 secs / 1.436 secs)
+WARN: 'The "longpress" event cannot be bound because Hammer.JS is not loaded and no custom loader has been specified.'
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 29 of 53 SUCCESS (0 secs / 1.616 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 30 of 53 SUCCESS (0 secs / 1.619 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 31 of 53 SUCCESS (0 secs / 1.621 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 32 of 53 SUCCESS (0 secs / 1.623 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 33 of 53 SUCCESS (0 secs / 1.625 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 34 of 53 SUCCESS (0 secs / 1.626 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 35 of 53 SUCCESS (0 secs / 1.686 secs)
+[1A[2KWARN: 'The "longpress" event cannot be bound because Hammer.JS is not loaded and no custom loader has been specified.'
+HeadlessChrome 145.0.0 (Linux 0.0.0): Executed 35 of 53 SUCCESS (0 secs / 1.686 secs)
+WARN: 'The "longpress" event cannot be bound because Hammer.JS is not loaded and no custom loader has been specified.'
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 36 of 53 SUCCESS (0 secs / 1.77 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 37 of 53 SUCCESS (0 secs / 1.773 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 38 of 53 SUCCESS (0 secs / 1.776 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 39 of 53 SUCCESS (0 secs / 1.778 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 40 of 53 SUCCESS (0 secs / 1.78 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 41 of 53 SUCCESS (0 secs / 1.797 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 42 of 53 SUCCESS (0 secs / 1.8 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 43 of 53 SUCCESS (0 secs / 1.8 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 44 of 53 SUCCESS (0 secs / 1.904 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 45 of 53 SUCCESS (0 secs / 1.958 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 46 of 53 SUCCESS (0 secs / 2.018 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 47 of 53 SUCCESS (0 secs / 2.062 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 48 of 53 SUCCESS (0 secs / 2.123 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0) AppComponent should have as title 'hr-app' FAILED
+	NullInjectorError: StaticInjectorError(DynamicTestModule)[ActivityLogService -> HttpClient]: 
+	  StaticInjectorError(Platform: core)[ActivityLogService -> HttpClient]: 
+	    NullInjectorError: No provider for HttpClient!
+	error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'ActivityLogService', Function ], ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 33603585, rootNodeFlags: 33554433, nodeMatchedQueries: 0, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 49152, directChildFlags: 49152, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 1, bindings: [  ], bindingFlags: 0, outputs: [  ], element: Object({ ns: '', name: 'app-root', attrs: [  ], template: null, componentProvider: Object({ nodeIndex: 1, parent: <circular reference: Object>, renderParent: <circular reference: Object>, bindingIndex: 0, outputIndex: 0, checkIndex: 1, flags: 49152, childFlags: 0, directChildFlags: 0, childMatchedQueries: 0, matchedQueries: Object, matchedQueryIds: 0, references: Object, ngContentIndex:  ...
+	    at NullInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:855:1)
+	    at resolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17514:1)
+	    at tryResolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17440:1)
+	    at StaticInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17266:1)
+	    at resolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17514:1)
+	    at tryResolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17440:1)
+	    at StaticInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17266:1)
+	    at resolveNgModuleDep (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:30393:1)
+	    at NgModuleRef_.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31578:1)
+	    at injectInjectorOnly (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:734:1)
+HeadlessChrome 145.0.0 (Linux 0.0.0): Executed 49 of 53 (1 FAILED) (0 secs / 2.168 secs)
+HeadlessChrome 145.0.0 (Linux 0.0.0) AppComponent should have as title 'hr-app' FAILED
+	NullInjectorError: StaticInjectorError(DynamicTestModule)[ActivityLogService -> HttpClient]: 
+	  StaticInjectorError(Platform: core)[ActivityLogService -> HttpClient]: 
+	    NullInjectorError: No provider for HttpClient!
+	error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'ActivityLogService', Function ], ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 33603585, rootNodeFlags: 33554433, nodeMatchedQueries: 0, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 49152, directChildFlags: 49152, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 1, bindings: [  ], bindingFlags: 0, outputs: [  ], element: Object({ ns: '', name: 'app-root', attrs: [  ], template: null, componentProvider: Object({ nodeIndex: 1, parent: <circular reference: Object>, renderParent: <circular reference: Object>, bindingIndex: 0, outputIndex: 0, checkIndex: 1, flags: 49152, childFlags: 0, directChildFlags: 0, childMatchedQueries: 0, matchedQueries: Object, matchedQueryIds: 0, references: Object, ngContentIndex:  ...
+	    at NullInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:855:1)
+	    at resolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17514:1)
+	    at tryResolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17440:1)
+	    at StaticInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17266:1)
+	    at resolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17514:1)
+	    at tryResolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17440:1)
+	    at StaticInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17266:1)
+	    at resolveNgModuleDep (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:30393:1)
+	    at NgModuleRef_.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31578:1)
+	    at injectInjectorOnly (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:734:1)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0) AppComponent should render title FAILED
+	NullInjectorError: StaticInjectorError(DynamicTestModule)[ActivityLogService -> HttpClient]: 
+	  StaticInjectorError(Platform: core)[ActivityLogService -> HttpClient]: 
+	    NullInjectorError: No provider for HttpClient!
+	error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'ActivityLogService', Function ], ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 33603585, rootNodeFlags: 33554433, nodeMatchedQueries: 0, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 49152, directChildFlags: 49152, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 1, bindings: [  ], bindingFlags: 0, outputs: [  ], element: Object({ ns: '', name: 'app-root', attrs: [  ], template: null, componentProvider: Object({ nodeIndex: 1, parent: <circular reference: Object>, renderParent: <circular reference: Object>, bindingIndex: 0, outputIndex: 0, checkIndex: 1, flags: 49152, childFlags: 0, directChildFlags: 0, childMatchedQueries: 0, matchedQueries: Object, matchedQueryIds: 0, references: Object, ngContentIndex:  ...
+	    at NullInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:855:1)
+	    at resolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17514:1)
+	    at tryResolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17440:1)
+	    at StaticInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17266:1)
+	    at resolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17514:1)
+	    at tryResolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17440:1)
+	    at StaticInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17266:1)
+	    at resolveNgModuleDep (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:30393:1)
+	    at NgModuleRef_.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31578:1)
+	    at injectInjectorOnly (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:734:1)
+HeadlessChrome 145.0.0 (Linux 0.0.0): Executed 50 of 53 (2 FAILED) (0 secs / 2.216 secs)
+HeadlessChrome 145.0.0 (Linux 0.0.0) AppComponent should render title FAILED
+	NullInjectorError: StaticInjectorError(DynamicTestModule)[ActivityLogService -> HttpClient]: 
+	  StaticInjectorError(Platform: core)[ActivityLogService -> HttpClient]: 
+	    NullInjectorError: No provider for HttpClient!
+	error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'ActivityLogService', Function ], ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 33603585, rootNodeFlags: 33554433, nodeMatchedQueries: 0, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 49152, directChildFlags: 49152, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 1, bindings: [  ], bindingFlags: 0, outputs: [  ], element: Object({ ns: '', name: 'app-root', attrs: [  ], template: null, componentProvider: Object({ nodeIndex: 1, parent: <circular reference: Object>, renderParent: <circular reference: Object>, bindingIndex: 0, outputIndex: 0, checkIndex: 1, flags: 49152, childFlags: 0, directChildFlags: 0, childMatchedQueries: 0, matchedQueries: Object, matchedQueryIds: 0, references: Object, ngContentIndex:  ...
+	    at NullInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:855:1)
+	    at resolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17514:1)
+	    at tryResolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17440:1)
+	    at StaticInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17266:1)
+	    at resolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17514:1)
+	    at tryResolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17440:1)
+	    at StaticInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17266:1)
+	    at resolveNgModuleDep (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:30393:1)
+	    at NgModuleRef_.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31578:1)
+	    at injectInjectorOnly (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:734:1)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0) AppComponent should create the app FAILED
+	NullInjectorError: StaticInjectorError(DynamicTestModule)[ActivityLogService -> HttpClient]: 
+	  StaticInjectorError(Platform: core)[ActivityLogService -> HttpClient]: 
+	    NullInjectorError: No provider for HttpClient!
+	error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'ActivityLogService', Function ], ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 33603585, rootNodeFlags: 33554433, nodeMatchedQueries: 0, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 49152, directChildFlags: 49152, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 1, bindings: [  ], bindingFlags: 0, outputs: [  ], element: Object({ ns: '', name: 'app-root', attrs: [  ], template: null, componentProvider: Object({ nodeIndex: 1, parent: <circular reference: Object>, renderParent: <circular reference: Object>, bindingIndex: 0, outputIndex: 0, checkIndex: 1, flags: 49152, childFlags: 0, directChildFlags: 0, childMatchedQueries: 0, matchedQueries: Object, matchedQueryIds: 0, references: Object, ngContentIndex:  ...
+	    at NullInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:855:1)
+	    at resolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17514:1)
+	    at tryResolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17440:1)
+	    at StaticInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17266:1)
+	    at resolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17514:1)
+	    at tryResolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17440:1)
+	    at StaticInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17266:1)
+	    at resolveNgModuleDep (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:30393:1)
+	    at NgModuleRef_.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31578:1)
+	    at injectInjectorOnly (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:734:1)
+HeadlessChrome 145.0.0 (Linux 0.0.0): Executed 51 of 53 (3 FAILED) (0 secs / 2.289 secs)
+HeadlessChrome 145.0.0 (Linux 0.0.0) AppComponent should create the app FAILED
+	NullInjectorError: StaticInjectorError(DynamicTestModule)[ActivityLogService -> HttpClient]: 
+	  StaticInjectorError(Platform: core)[ActivityLogService -> HttpClient]: 
+	    NullInjectorError: No provider for HttpClient!
+	error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'ActivityLogService', Function ], ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 33603585, rootNodeFlags: 33554433, nodeMatchedQueries: 0, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 49152, directChildFlags: 49152, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 1, bindings: [  ], bindingFlags: 0, outputs: [  ], element: Object({ ns: '', name: 'app-root', attrs: [  ], template: null, componentProvider: Object({ nodeIndex: 1, parent: <circular reference: Object>, renderParent: <circular reference: Object>, bindingIndex: 0, outputIndex: 0, checkIndex: 1, flags: 49152, childFlags: 0, directChildFlags: 0, childMatchedQueries: 0, matchedQueries: Object, matchedQueryIds: 0, references: Object, ngContentIndex:  ...
+	    at NullInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:855:1)
+	    at resolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17514:1)
+	    at tryResolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17440:1)
+	    at StaticInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17266:1)
+	    at resolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17514:1)
+	    at tryResolveToken (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17440:1)
+	    at StaticInjector.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:17266:1)
+	    at resolveNgModuleDep (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:30393:1)
+	    at NgModuleRef_.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31578:1)
+	    at injectInjectorOnly (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:734:1)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 52 of 53 (3 FAILED) (0 secs / 2.529 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 53 of 53 (3 FAILED) (0 secs / 2.553 secs)
+[1A[2KHeadlessChrome 145.0.0 (Linux 0.0.0): Executed 53 of 53 (3 FAILED) (2.768 secs / 2.553 secs)
+TOTAL: 3 FAILED, 50 SUCCESS
+TOTAL: 3 FAILED, 50 SUCCESS

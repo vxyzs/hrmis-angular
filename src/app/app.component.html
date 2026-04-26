@@ -1,0 +1,73 @@
+<!-- src/app/app.component.html -->
+<div class="app-container" *ngIf="currentUser$ | async as user; else noAuthLayout">
+  <!-- Sticky Navigation Bar -->
+  <mat-toolbar color="primary" class="sticky-toolbar">
+    <!-- Clickable Title -->
+    <span class="app-title" routerLink="/dashboard" style="cursor: pointer;">
+      HR Management System
+    </span>
+    
+    <!-- Navigation Links -->
+    <nav class="nav-links">
+      <a mat-button routerLink="/dashboard" routerLinkActive="active" 
+         [routerLinkActiveOptions]="{exact: true}" *ngIf="hasAccess(['Admin', 'HRManager'])">
+        <mat-icon>home</mat-icon>
+        Home
+      </a>
+      <a mat-button routerLink="/profile" routerLinkActive="active" *ngIf="hasAccess(['Admin', 'HRManager', 'Employee'])">
+        <mat-icon>person</mat-icon>
+        My Profile
+      </a>
+      <a mat-button routerLink="/employees" routerLinkActive="active" *ngIf="hasAccess(['Admin', 'HRManager'])">
+        <mat-icon>people</mat-icon>
+        Employees
+      </a>
+      <a mat-button routerLink="/departments" routerLinkActive="active" *ngIf="hasAccess(['Admin', 'HRManager'])">
+        <mat-icon>business</mat-icon>
+        Departments
+      </a>
+      <a mat-button routerLink="/candidates" routerLinkActive="active" *ngIf="hasAccess(['Admin', 'HRManager'])">
+        <mat-icon>work</mat-icon>
+        Candidates
+      </a>
+      <a mat-button routerLink="/salaries" routerLinkActive="active" *ngIf="hasAccess(['Admin'])">
+        <mat-icon>attach_money</mat-icon>
+        Salaries
+      </a>
+      <a mat-button routerLink="/reports" routerLinkActive="active" *ngIf="hasAccess(['Admin', 'HRManager'])">
+        <mat-icon>bar_chart</mat-icon>
+        Reports
+      </a>
+      <a mat-button routerLink="/audit-log" routerLinkActive="active" *ngIf="hasAccess(['Admin'])">
+        <mat-icon>history</mat-icon>
+        Audit Log
+      </a>
+    </nav>
+
+    <!-- Optional: User menu or additional controls -->
+    <div class="spacer"></div>
+    <div class="user-info" style="margin-right: 15px; text-align: right; line-height: 1.2;">
+      <div style="font-weight: bold; font-size: 14px;">{{ user.name }}</div>
+      <div style="font-size: 12px; opacity: 0.8;">{{ user.role }}</div>
+    </div>
+    <button mat-icon-button [matMenuTriggerFor]="userMenu">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+    
+    <mat-menu #userMenu="matMenu">
+      <button mat-menu-item (click)="logout()">
+        <mat-icon>exit_to_app</mat-icon>
+        <span>Logout</span>
+      </button>
+    </mat-menu>
+  </mat-toolbar>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<ng-template #noAuthLayout>
+  <router-outlet></router-outlet>
+</ng-template>

@@ -1,0 +1,103 @@
+.audit-log-container {
+  padding: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  mat-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  .toolbar {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+
+    mat-form-field {
+      min-width: 200px;
+    }
+
+    button {
+      height: 52px;
+      margin-bottom: 22px;
+    }
+  }
+
+  .table-container {
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    background: white;
+
+    .loading-shade {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 56px;
+      right: 0;
+      background: rgba(255, 255, 255, 0.7);
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    .mat-header-cell {
+      background: #f8f9fa;
+      color: #333;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 0.5px;
+    }
+
+    .mat-cell {
+      padding: 12px 16px;
+    }
+
+    .action-label {
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+
+      &.create { background: #e8f5e9; color: #2e7d32; }
+      &.update { background: #fff3e0; color: #ef6c00; }
+      &.delete { background: #ffebee; color: #c62828; }
+    }
+  }
+
+  .no-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    color: #999;
+
+    mat-icon {
+      font-size: 64px;
+      width: 64px;
+      height: 64px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin: 0;
+      font-style: italic;
+    }
+  }
+}
+
+::ng-deep .mat-chip {
+  min-height: 24px !important;
+  font-size: 0.7rem !important;
+  font-weight: 500 !important;
+}
