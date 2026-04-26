@@ -1,49 +1,82 @@
-# HR Management System (Angular 8)
+HR Management Information System (HRMIS)
+========================================
 
-![Angular](https://img.shields.io/badge/Angular-8-red)
-![Netlify](https://img.shields.io/badge/Netlify-Deployed-brightgreen)
+A web-based **Human Resource Management Information System (HRMIS)** built using **Angular 8** and **Angular Material**.The system automates and manages core HR operations such as employee management, payroll management, recruitment, reporting, and audit logging.
 
-A simple HR Management System built with **Angular 8**, designed to manage employees, salaries, and other HR tasks.  
-You can try it live here: [Demo Link](https://hr-management-system1.netlify.app/)
+The project is designed as an academic **Management Information System (MIS)** demonstrating:
 
+*   role-based access control
+*   reporting & analytics
+*   dashboard-based decision support
+*   integrated organizational data
+*   audit tracking and monitoring
 
-## 🚀 Features
-- Employee Management (Add, Update, Delete employees)  
-- Department Management(Full CRUD operations)
-- Candidate Management (Full CRUD operations)
-- Salary Management (track multiple salary records, update salaries without losing history)  
-- Dashboard with employee & salary summary  
-- Responsive UI using Angular Material  
-- In-memory API for demo purposes  
+🚀 Features
+-----------
 
----
+### 👤 Employee Management
 
-## 📸 Screenshots
-### Dashboard
-![Dashboard Screenshot](./screenshots/dashboard.png)
+*   Add, update, delete employees
+*   Employee profile management
+*   Department integration
+*   Employee search & filtering
 
-### Employee List
-![Employee List Screenshot](./screenshots/employee-list.png)
+### 🏢 Department Management
 
-### Add Employee
-![Add Employee Screenshot](./screenshots/employee.png)
+*   Full CRUD operations
+*   Department-wise employee tracking
 
-### Department List
-![Salary Screenshot](./screenshots/department-list.png)
+### 🧑‍💼 Candidate Management
 
-### Candidate List
-![Salary Screenshot](./screenshots/candidate-list.png)
+*   Candidate tracking system
+*   Recruitment pipeline management
+*   Candidate status tracking
 
-### Salary List
-![Salary Screenshot](./screenshots/salary-list.png)
+### 💰 Salary Management
 
+*   Salary records & history
+*   Payroll summaries
+*   Salary analytics
 
----
+### 📊 MIS Dashboard & Reports
 
+*   KPI dashboard cards
+*   Employee & payroll analytics
+*   Candidate pipeline reports
+*   Charts using Chart.js
+*   CSV export support
+
+### 🔐 Role-Based Access Control
+
+*   Admin
+*   HR Manager
+*   Employee
+
+### 📝 Audit Logging
+
+*   Tracks Create, Update, Delete operations
+*   Timestamp-based activity logs
+*   Admin-only audit monitoring
+
+### 🎨 UI Features
+
+*   Angular Material UI
+*   Responsive layout
+*   Global search    
+    
 ## 🛠️ Tech Stack
-- **Frontend**: Angular 8, Angular Material  
-- **Backend (Mock)**: Angular In-Memory Web API  
-- **Deployment**: Netlify  
+
+| Category | Technology |
+|---|---|
+| Frontend | Angular 8 |
+| UI Framework | Angular Material |
+| Language | TypeScript |
+| Charts & Analytics | Chart.js, ng2-charts |
+| Forms | Reactive Forms |
+| Mock Backend | Angular In-Memory Web API |
+| Data Storage | localStorage |
+| Unit Testing | Jasmine, Karma |
+| Version Control | Git & GitHub |
 
 ---
 
@@ -53,45 +86,93 @@ You can try it live here: [Demo Link](https://hr-management-system1.netlify.app/
 src/
 ├── app/
 │   ├── core/
-│   │   └── services/          # Data services
+│   │   ├── guards/
+│   │   ├── services/
+│   │   └── interceptors/
+│   │
 │   ├── features/
-│   │   ├── dashboard/         # Dashboard component
-│   │   ├── employees/         # Employee management
-│   │   ├── departments/       # Department management
-│   │   ├── candidates/        # Candidate tracking
-│   │   └── salaries/          # Salary management
+│   │   ├── auth/
+│   │   ├── dashboard/
+│   │   ├── employees/
+│   │   ├── departments/
+│   │   ├── candidates/
+│   │   ├── salaries/
+│   │   ├── reports/
+│   │   └── audit-log/
+│   │
 │   ├── shared/
-│   │   ├── components/        # Reusable components
-│   │   ├── models/           # TypeScript interfaces
-│   │   └── directives/       # Custom directives
-│   └── app.module.ts         # Root module
-└── assets/                   # Images and static files
+│   │   ├── components/
+│   │   ├── models/
+│   │   ├── pipes/
+│   │   └── directives/
+│   │
+│   └── app.module.ts
+│
+└── assets/
 ```
+
 ---
 
 ## ⚙️ Setup & Installation
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/your-username/hr-management-system.git  
-   cd hr-management-system
-   ```
-2. install dependencies
-    npm install
-3. Run Locally
-    ng serve -o
-4. build for production
-    ng build --prod
----
-## 🌐 Deployment
 
-This project is deployed on **Netlify**.  
+### 1. Clone Repository
 
-You can try it live here: [Demo Link](https://hr-management-system1.netlify.app/)
+```bash
+git clone https://github.com/vxyzs/hrmis-angular.git
+cd hrmis-angular
+```
 
----
+### 2. Install Dependencies
 
-## 🙌 Author
+```bash
+npm install --legacy-peer-deps
+```
 
-Developed by **Your Name**.  
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/hadush-brhane/)
+### 3. Run Application
 
+```bash
+ng serve -o
+```
+
+### 4. Build for Production
+
+```bash
+ng build --prod
+```
+
+### Unit Testing (Jasmine + Karma)
+
+```bash
+ng test
+```
+
+👥 User Roles
+-------------
+
+RoleAccess LevelAdminFull system accessHR ManagerHR operations & reportsEmployeeSelf-service access only
+
+📌 MIS Functionalities Implemented
+----------------------------------
+
+*   Dashboard analytics
+*   Reporting & decision support
+*   Role-based access control
+*   Integrated organizational data
+*   Audit trail logging
+*   Payroll reporting
+*   Candidate pipeline monitoring
+*   CSV report export
+*   Workflow-based HR operations
+    
+
+📖 Academic Purpose
+-------------------
+
+This project was developed as an academic **Management Information System (MIS)** project to demonstrate:
+
+*   HR workflow automation
+*   organizational data integration
+*   reporting systems
+*   dashboard analytics
+*   access control mechanisms
+*   audit and monitoring systems
