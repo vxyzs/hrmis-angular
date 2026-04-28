@@ -14,7 +14,7 @@
         <mat-icon>home</mat-icon>
         Home
       </a>
-      <a mat-button routerLink="/profile" routerLinkActive="active" *ngIf="hasAccess(['Admin', 'HRManager', 'Employee'])">
+      <a mat-button routerLink="/profile" routerLinkActive="active" *ngIf="hasAccess(['Employee'])">
         <mat-icon>person</mat-icon>
         My Profile
       </a>
@@ -30,7 +30,7 @@
         <mat-icon>work</mat-icon>
         Candidates
       </a>
-      <a mat-button routerLink="/salaries" routerLinkActive="active" *ngIf="hasAccess(['Admin'])">
+      <a mat-button routerLink="/salaries" routerLinkActive="active" *ngIf="hasAccess(['Admin','HRManager'])">
         <mat-icon>attach_money</mat-icon>
         Salaries
       </a>

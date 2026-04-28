@@ -20,21 +20,21 @@ const routes: Routes = [
     path: 'profile',
     loadChildren: () => import('./features/profile/profile.module').then(m => m.ProfileModule),
     canActivate: [AuthGuard, RoleGuard],
-    data: { roles: ['Admin', 'HRManager', 'Employee'] }
+    data: { roles: ['Employee'] }
   },
-  { 
+  {
     path: 'employees',
     loadChildren: () => import('./features/employees/employees.module').then(m => m.EmployeesModule),
     canActivate: [AuthGuard, RoleGuard],
     data: { roles: ['Admin', 'HRManager'] }
   },
-  { 
+  {
     path: 'departments',
     loadChildren: () => import('./features/departments/departments.module').then(m => m.DepartmentsModule),
     canActivate: [AuthGuard, RoleGuard],
     data: { roles: ['Admin', 'HRManager'] }
   },
-  { 
+  {
     path: 'candidates',
     loadChildren: () => import('./features/candidates/candidates.module').then(m => m.CandidatesModule),
     canActivate: [AuthGuard, RoleGuard],
@@ -44,7 +44,7 @@ const routes: Routes = [
     path: 'salaries',
     loadChildren: () => import('./features/salaries/salaries.module').then(m => m.SalariesModule),
     canActivate: [AuthGuard, RoleGuard],
-    data: { roles: ['Admin'] }
+    data: { roles: ['Admin', 'HRManager'] }
   },
   {
     path: 'reports',

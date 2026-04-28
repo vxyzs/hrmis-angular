@@ -13,7 +13,7 @@ export class InMemoryDataService implements InMemoryDbService {
     const users = [
       { id: 1, username: 'admin', password: 'admin123', role: 'Admin', name: 'Admin User' },
       { id: 2, username: 'hr.manager', password: 'hr123', role: 'HRManager', name: 'HR Manager' },
-      { id: 3, username: 'employee', password: 'emp123', role: 'Employee', name: 'Michael Johnson', employeeId: 3 }
+      { id: 3, username: 'john.michael', password: 'michael123', role: 'Employee', name: 'Michael Johnson', employeeId: 3 }
     ];
 
     const departments = [
